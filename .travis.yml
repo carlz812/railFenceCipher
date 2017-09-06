@@ -1,0 +1,7 @@
+language: node_js
+sudo: enabled
+node_js:
+  - "v6.9.1"
+npm:
+  - "5.3.0"
+
