@@ -23,11 +23,11 @@ With npm do:
 
     npm install railFenceCipher
 
-`var railfencecipher = require("railfencecipher")`
+    var railfencecipher = require("railfencecipher")
 
 For use in web browsers do:
 
-    <script src="railFenceCipher.min.js"></script>
+    <script src="railFenceCipher.min.js"></script>
 
 ## methods
 
