@@ -22,8 +22,8 @@
 通过npm安装
 
     npm install railFenceCipher
-
-`var base64js = require('base64-js')`
+    
+    var railfencecipher = require("railfencecipher")
 
 在浏览器中使用
 

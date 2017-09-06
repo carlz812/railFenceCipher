@@ -23,11 +23,11 @@ With npm do:
 
     npm install railFenceCipher
 
-`var base64js = require('base64-js')`
+    var railfencecipher = require("railfencecipher")
 
 For use in web browsers do:
 
-    <script src="railFenceCipher.js"></script>
+    <script src="railFenceCipher.min.js"></script>
 
 ## methods
 
