@@ -8,10 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git"
+    "url": "https://github.com/rjdangcc/railFenceCipher.git"
   },
   "keywords": [
-    "js"
+    "js",
+    "javascript",
+    "Rail Fence Cipher",
+    "encode",
+    "decode"
   ],
   "author": "carlzz",
   "license": "ISC"
