@@ -33,11 +33,11 @@ For use in web browsers do:
 
 ### Encoding
 ```javascript
-encodeRailFenceCipher('WEAREDISCOVEREDFLEEATONCE',3)
+railfencecipher.encodeRailFenceCipher('WEAREDISCOVEREDFLEEATONCE',3)
 //WECRLTEERDSOEEFEAOCAIVDEN
 ```
 ### Encoding
 ```javascript
-decodeRailFenceCipher('WECRLTEERDSOEEFEAOCAIVDEN',3)
+railfencecipher.decodeRailFenceCipher('WECRLTEERDSOEEFEAOCAIVDEN',3)
 //WEAREDISCOVEREDFLEEATONCE
 ```
