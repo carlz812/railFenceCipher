@@ -27,17 +27,17 @@ With npm do:
 
 For use in web browsers do:
 
-<script src="railFenceCipher.js"></script>
+    <script src="railFenceCipher.js"></script>
 
 ## methods
 
 ### Encoding
 ```javascript
-encodeRailFenceCipher('WEAREDISCOVEREDFLEEATONCE',3)
+railfencecipher.encodeRailFenceCipher('WEAREDISCOVEREDFLEEATONCE',3)
 //WECRLTEERDSOEEFEAOCAIVDEN
 ```
 ### Encoding
 ```javascript
-decodeRailFenceCipher('WECRLTEERDSOEEFEAOCAIVDEN',3)
+railfencecipher.decodeRailFenceCipher('WECRLTEERDSOEEFEAOCAIVDEN',3)
 //WEAREDISCOVEREDFLEEATONCE
 ```
