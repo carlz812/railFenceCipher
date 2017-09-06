@@ -2,7 +2,7 @@
 function encodeRailFenceCipher(string, numberRails) {
   if (!string || !numberRails) {
     console.log('invalid input');
-    return;
+    return '';
   }
   var arr = string.split(""),
       result = [];
@@ -37,7 +37,7 @@ function encodeRailFenceCipher(string, numberRails) {
 function decodeRailFenceCipher(string, numberRails) {
   if (!string || !numberRails) {
     console.log('invalid input');
-    return;
+    return '';
   }
   var div = 2 * (numberRails - 2) + 2,
       stringArr = string.split(""),
