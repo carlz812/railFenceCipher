@@ -22,16 +22,13 @@ gulp.task('convertJS', function () {
 
 gulp.task('compress', function (cb) {
     // the same options as described above
-    pump([
-            gulp.src('dist/index.js'),
-            rename(function (path) {
-                path.basename = "railFenceCipher.min";
-                path.extname = ".js"
-            }),
-            gulp.dest('dist')
-        ],
-        cb
-    );
+    return gulp.src('dist/index.js')
+        .pipe(rename(function (path) {
+            path.basename = "railFenceCipher.min";
+            path.extname = ".js"
+        }))
+        .pipe(minify())
+        .pipe(gulp.dest('dist'))
 });
 gulp.task('default', ['convertJS', 'compress'], function () {
     // 将你的默认的任务代码放在这

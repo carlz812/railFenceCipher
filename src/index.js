@@ -91,7 +91,7 @@ function decodeRailFenceCipher(string, numberRails) {
   return result.join("");
 }
 
-exports.default = {
+module.exports = {
   encodeRailFenceCipher: encodeRailFenceCipher,
   decodeRailFenceCipher: decodeRailFenceCipher
 };
