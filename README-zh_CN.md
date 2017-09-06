@@ -22,22 +22,22 @@
 通过npm安装
 
     npm install railFenceCipher
-
-`var base64js = require('base64-js')`
+    
+    var railfencecipher = require("railfencecipher")
 
 在浏览器中使用
 
-<script src="railFenceCipher.min.js"></script>
+    <script src="railFenceCipher.min.js"></script>
 
 ## 方法
 
 ### 编码
 ```javascript
-encodeRailFenceCipher('WEAREDISCOVEREDFLEEATONCE',3)
+railfencecipher.encodeRailFenceCipher('WEAREDISCOVEREDFLEEATONCE',3)
 //WECRLTEERDSOEEFEAOCAIVDEN
 ```
 ### 解码
 ```javascript
-decodeRailFenceCipher('WECRLTEERDSOEEFEAOCAIVDEN',3)
+railfencecipher.decodeRailFenceCipher('WECRLTEERDSOEEFEAOCAIVDEN',3)
 //WEAREDISCOVEREDFLEEATONCE
 ```
