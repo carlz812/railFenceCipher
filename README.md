@@ -3,8 +3,12 @@ Rail Fence Cipher: Encoding and Decoding
 
  ![中文 README](README-zh_CN.md)
 
+ [![node](https://img.shields.io/badge/npm-5.3.0-blue.svg)]()
+ [![nodejs](https://img.shields.io/badge/nodejs-v6.9.1-orange.svg)]()
  [![build](https://travis-ci.org/rjdangcc/railFenceCipher.svg?branch=1.1.5)]()
  [![Coverage Status](https://coveralls.io/repos/github/rjdangcc/railFenceCipher/badge.svg?branch=master)](https://coveralls.io/github/rjdangcc/railFenceCipher?branch=master)
+ [![ISC](https://img.shields.io/badge/license-ISC-brightgreen.svg)]()
+
 
 ## Rail fence cipher
 
