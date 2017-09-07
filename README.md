@@ -1,7 +1,10 @@
 # railFenceCipher
 Rail Fence Cipher: Encoding and Decoding
 
-![中文 README](README-zh_CN.md)
+ ![中文 README](README-zh_CN.md)
+
+ [![build](https://travis-ci.org/rjdangcc/railFenceCipher.svg?branch=1.1.5)]()
+ [![Coverage Status](https://coveralls.io/repos/github/rjdangcc/railFenceCipher/badge.svg?branch=master)](https://coveralls.io/github/rjdangcc/railFenceCipher?branch=master)
 
 ## Rail fence cipher
 
