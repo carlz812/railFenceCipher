@@ -40,3 +40,7 @@ Thumbs.db
 # *.zip
 # *.tar
 # *.tar.gz
+
+# mocha test
+
+/coverage
