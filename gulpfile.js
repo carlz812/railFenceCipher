@@ -20,7 +20,7 @@ gulp.task('convertJS', function () {
 })
 
 
-gulp.task('compress', function (cb) {
+gulp.task('compress', function () {
     // the same options as described above
     return gulp.src('dist/index.js')
         .pipe(rename(function (path) {

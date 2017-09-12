@@ -3,6 +3,14 @@
 
 ![English README](README.md)
 
+
+ [![node](https://img.shields.io/badge/npm-5.3.0-blue.svg)]()
+ [![nodejs](https://img.shields.io/badge/nodejs-v6.9.1-orange.svg)]()
+ [![build](https://travis-ci.org/rjdangcc/railFenceCipher.svg?branch=1.1.5)]()
+ [![Coverage Status](https://coveralls.io/repos/github/rjdangcc/railFenceCipher/badge.svg?branch=master)](https://coveralls.io/github/rjdangcc/railFenceCipher?branch=master)
+ [![ISC](https://img.shields.io/badge/license-ISC-brightgreen.svg)]()
+
+
 ## 篱笆密码法
 
 于篱笆密码法中，明文由上至下顺序写上，当到达最低部时，再回头向上，一直重复直至整篇明文写完为止。然后，再往右顺序抄写一次。
